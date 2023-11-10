@@ -1,6 +1,5 @@
 import * as path from "path";
 import { statSync } from "fs";
-import type { ServeOptions } from "bun";
 
 const PROJECT_ROOT = import.meta.dir;
 const PUBLIC_DIR = path.resolve(PROJECT_ROOT, "public");

@@ -3,10 +3,12 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "dev": "bun --watch run dev.tsx"
+    "dev": "bun --watch run dev.tsx",
+    "tailwind": "bunx tailwindcss -i ./src/input.css -o ./build/output.css --watch"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "tailwindcss": "^3.3.5"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
@@ -14,6 +16,8 @@
   "dependencies": {
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
