@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "dev": "bun --watch run dev.tsx",
-    "tailwind": "bunx tailwindcss -i ./src/input.css -o ./build/output.css --watch"
+    "tailwind:watch": "bunx tailwindcss -i ./src/input.css -o ./build/output.css --watch",
+    "tailwind": "bunx tailwindcss -i ./src/input.css -o ./build/output.css",
+    "build": "npm run tailwind && bun build"
   },
   "devDependencies": {
     "bun-types": "latest",
