@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "bun --watch run dev.tsx",
-    "tailwind:watch": "bunx tailwindcss -i ./src/input.css -o ./build/output.css --watch",
-    "tailwind": "bunx tailwindcss -i ./src/input.css -o ./build/output.css",
+    "tailwind:watch": "npx tailwindcss -i ./src/input.css -o ./build/output.css --watch",
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/output.css",
     "build": "npm run tailwind && bun run dev.tsx"
   },
   "devDependencies": {
