@@ -6,7 +6,7 @@
     "dev": "bun --watch run dev.tsx",
     "tailwind:watch": "npx tailwindcss -i ./src/input.css -o ./build/output.css --watch",
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/output.css",
-    "build": "npm run tailwind && bun run dev.tsx"
+    "build": "npm run tailwind && bun run prod.tsx"
   },
   "devDependencies": {
     "bun-types": "latest",
