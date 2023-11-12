@@ -6,7 +6,7 @@ import * as ReactDOM from "react-dom/client";
 const App: React.FC = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold">Hello World you bastards!!!</h1>
+      <h1 className="text-3xl font-bold">Hello World you bastards!!</h1>
     </div>
   );
 };
